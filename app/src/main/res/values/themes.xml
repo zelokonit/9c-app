@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.9c_alpha" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/coffee_500</item>
+        <item name="colorPrimaryVariant">@color/coffee_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/a9c_icon_background</item>
+        <item name="colorOnSecondary">@color/coffee_700</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="tabBackground">@color/coffee_200</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:spinnerItemStyle">@style/mySpinnerItemStyle</item>
+        <item name="android:spinnerDropDownItemStyle">@style/mySpinnerItemStyle</item>
+    </style>
+
+    <style name="mySpinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/coffee_700</item>
+    </style>
+
+    <style name="myExpandableStyle" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/coffee_700</item>
+        <item name="android:background">@color/white</item>
+    </style>
+</resources>

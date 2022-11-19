@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="coffee_200">#ff7f5c45</color>
+    <color name="coffee_500">#ff433022</color>
+    <color name="coffee_600">#3D2B22</color>
+    <color name="coffee_700">#ff261c15</color>
+    <color name="coffee_900">#1f1711</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey_200">#F4F4F4</color>
+    <color name="header_text">@color/white</color>
+</resources>
